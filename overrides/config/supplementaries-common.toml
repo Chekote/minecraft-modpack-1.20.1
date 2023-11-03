@@ -18,6 +18,9 @@
 		#Maximum block range
 		#Range: 0 ~ 100000000
 		range = 64
+		#Max text
+		#Range: 0 ~ 10000
+		max_text = 32
 
 	[redstone.bellows]
 		enabled = true
@@ -245,6 +248,8 @@
 		enabled = true
 		#Makes so saplings that grow in a planter will break it turning into rooted dirt
 		broken_by_sapling = true
+		#When Farmers Delight is on planter will also act like rich soil and use it in its recipe
+		rich_soil_planter = true
 
 	[building.notice_board]
 		enabled = true
@@ -544,6 +549,9 @@
 		min_search_radius = 75
 		#Makes blocks tagged as 'tinted_on_map' use their tint color. This allows for accurate biome colors for water and grass as well as other custom block that use any tint
 		tinted_blocks_on_maps = true
+		#Shows a death marker on your map when you die. Requires a recovery compass in player inventory or similar
+		#Allowed Values: OFF, WITH_COMPASS, ALWAYS
+		death_marker = "WITH_COMPASS"
 
 	[tweaks.ceiling_banners]
 		#Allow banners to be placed on ceilings
@@ -581,4 +589,7 @@
 		cat_unluck = true
 		#If you have unluck you are more likely to get hit by a lighting
 		lightning_unluck = true
+
+	[tweaks.golden_apple_disenchant]
+		enabled = true
 
