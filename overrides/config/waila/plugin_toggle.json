@@ -1,0 +1,10 @@
+{
+  "waila:core": true,
+  "waila:vanilla": true,
+  "waila:harvest": true,
+  "waila:extra": true,
+  "waila:forge": true,
+  "waila:test": false,
+  "mekanism:plugin": true,
+  "waystones:plugin": true
+}
